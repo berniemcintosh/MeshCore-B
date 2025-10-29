@@ -22,6 +22,7 @@ static char command[160];
 void setup() {
   Serial.begin(115200);
   delay(1000);
+  Serial.println("Hello World");
 
   board.begin();
 
